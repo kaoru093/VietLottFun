@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		186157A5251DEC940095B226 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186157A4251DEC940095B226 /* PlayViewController.swift */; };
+		18FAB5982515BFD50071B6CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FAB5972515BFD50071B6CA /* AppDelegate.swift */; };
+		18FAB59A2515BFD50071B6CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FAB5992515BFD50071B6CA /* SceneDelegate.swift */; };
+		18FAB59C2515BFD50071B6CA /* ModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FAB59B2515BFD50071B6CA /* ModeViewController.swift */; };
+		18FAB59F2515BFD50071B6CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FAB59D2515BFD50071B6CA /* Main.storyboard */; };
+		18FAB5A12515BFD70071B6CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FAB5A02515BFD70071B6CA /* Assets.xcassets */; };
+		18FAB5A42515BFD70071B6CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FAB5A22515BFD70071B6CA /* LaunchScreen.storyboard */; };
+		18FAB5AF2515BFD70071B6CA /* VietLottFunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FAB5AE2515BFD70071B6CA /* VietLottFunTests.swift */; };
+		18FAB5BA2515BFD70071B6CA /* VietLottFunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FAB5B92515BFD70071B6CA /* VietLottFunUITests.swift */; };
+		18FAB5CE2515C01E0071B6CA /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FAB5CD2515C01E0071B6CA /* K.swift */; };
+		18FAB5D8251C3C800071B6CA /* KenoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FAB5D7251C3C800071B6CA /* KenoViewController.swift */; };
+		18FAB5DD251DC7B50071B6CA /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FAB5DC251DC7B50071B6CA /* CollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18FAB5AB2515BFD70071B6CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18FAB58C2515BFD50071B6CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18FAB5932515BFD50071B6CA;
+			remoteInfo = VietLottFun;
+		};
+		18FAB5B62515BFD70071B6CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18FAB58C2515BFD50071B6CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18FAB5932515BFD50071B6CA;
+			remoteInfo = VietLottFun;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		186157A4251DEC940095B226 /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+		18FAB5942515BFD50071B6CA /* VietLottFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VietLottFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FAB5972515BFD50071B6CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18FAB5992515BFD50071B6CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18FAB59B2515BFD50071B6CA /* ModeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeViewController.swift; sourceTree = "<group>"; };
+		18FAB59E2515BFD50071B6CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18FAB5A02515BFD70071B6CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18FAB5A32515BFD70071B6CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18FAB5A52515BFD70071B6CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FAB5AA2515BFD70071B6CA /* VietLottFunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VietLottFunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FAB5AE2515BFD70071B6CA /* VietLottFunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VietLottFunTests.swift; sourceTree = "<group>"; };
+		18FAB5B02515BFD70071B6CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FAB5B52515BFD70071B6CA /* VietLottFunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VietLottFunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FAB5B92515BFD70071B6CA /* VietLottFunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VietLottFunUITests.swift; sourceTree = "<group>"; };
+		18FAB5BB2515BFD70071B6CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FAB5CD2515C01E0071B6CA /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
+		18FAB5D7251C3C800071B6CA /* KenoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KenoViewController.swift; sourceTree = "<group>"; };
+		18FAB5DC251DC7B50071B6CA /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18FAB5912515BFD50071B6CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FAB5A72515BFD70071B6CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FAB5B22515BFD70071B6CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18FAB58B2515BFD50071B6CA = {
+			isa = PBXGroup;
+			children = (
+				18FAB5962515BFD50071B6CA /* VietLottFun */,
+				18FAB5AD2515BFD70071B6CA /* VietLottFunTests */,
+				18FAB5B82515BFD70071B6CA /* VietLottFunUITests */,
+				18FAB5952515BFD50071B6CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18FAB5952515BFD50071B6CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18FAB5942515BFD50071B6CA /* VietLottFun.app */,
+				18FAB5AA2515BFD70071B6CA /* VietLottFunTests.xctest */,
+				18FAB5B52515BFD70071B6CA /* VietLottFunUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18FAB5962515BFD50071B6CA /* VietLottFun */ = {
+			isa = PBXGroup;
+			children = (
+				18FAB5DC251DC7B50071B6CA /* CollectionViewCell.swift */,
+				18FAB5972515BFD50071B6CA /* AppDelegate.swift */,
+				18FAB5992515BFD50071B6CA /* SceneDelegate.swift */,
+				18FAB5CD2515C01E0071B6CA /* K.swift */,
+				18FAB5E9251DD3C50071B6CA /* View */,
+				18FAB59D2515BFD50071B6CA /* Main.storyboard */,
+				18FAB5A02515BFD70071B6CA /* Assets.xcassets */,
+				18FAB5A22515BFD70071B6CA /* LaunchScreen.storyboard */,
+				18FAB5A52515BFD70071B6CA /* Info.plist */,
+			);
+			path = VietLottFun;
+			sourceTree = "<group>";
+		};
+		18FAB5AD2515BFD70071B6CA /* VietLottFunTests */ = {
+			isa = PBXGroup;
+			children = (
+				18FAB5AE2515BFD70071B6CA /* VietLottFunTests.swift */,
+				18FAB5B02515BFD70071B6CA /* Info.plist */,
+			);
+			path = VietLottFunTests;
+			sourceTree = "<group>";
+		};
+		18FAB5B82515BFD70071B6CA /* VietLottFunUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18FAB5B92515BFD70071B6CA /* VietLottFunUITests.swift */,
+				18FAB5BB2515BFD70071B6CA /* Info.plist */,
+			);
+			path = VietLottFunUITests;
+			sourceTree = "<group>";
+		};
+		18FAB5E9251DD3C50071B6CA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18FAB59B2515BFD50071B6CA /* ModeViewController.swift */,
+				18FAB5D7251C3C800071B6CA /* KenoViewController.swift */,
+				186157A4251DEC940095B226 /* PlayViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18FAB5932515BFD50071B6CA /* VietLottFun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FAB5BE2515BFD70071B6CA /* Build configuration list for PBXNativeTarget "VietLottFun" */;
+			buildPhases = (
+				18FAB5902515BFD50071B6CA /* Sources */,
+				18FAB5912515BFD50071B6CA /* Frameworks */,
+				18FAB5922515BFD50071B6CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VietLottFun;
+			productName = VietLottFun;
+			productReference = 18FAB5942515BFD50071B6CA /* VietLottFun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18FAB5A92515BFD70071B6CA /* VietLottFunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FAB5C12515BFD70071B6CA /* Build configuration list for PBXNativeTarget "VietLottFunTests" */;
+			buildPhases = (
+				18FAB5A62515BFD70071B6CA /* Sources */,
+				18FAB5A72515BFD70071B6CA /* Frameworks */,
+				18FAB5A82515BFD70071B6CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18FAB5AC2515BFD70071B6CA /* PBXTargetDependency */,
+			);
+			name = VietLottFunTests;
+			productName = VietLottFunTests;
+			productReference = 18FAB5AA2515BFD70071B6CA /* VietLottFunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18FAB5B42515BFD70071B6CA /* VietLottFunUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FAB5C42515BFD70071B6CA /* Build configuration list for PBXNativeTarget "VietLottFunUITests" */;
+			buildPhases = (
+				18FAB5B12515BFD70071B6CA /* Sources */,
+				18FAB5B22515BFD70071B6CA /* Frameworks */,
+				18FAB5B32515BFD70071B6CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18FAB5B72515BFD70071B6CA /* PBXTargetDependency */,
+			);
+			name = VietLottFunUITests;
+			productName = VietLottFunUITests;
+			productReference = 18FAB5B52515BFD70071B6CA /* VietLottFunUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18FAB58C2515BFD50071B6CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					18FAB5932515BFD50071B6CA = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					18FAB5A92515BFD70071B6CA = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 18FAB5932515BFD50071B6CA;
+					};
+					18FAB5B42515BFD70071B6CA = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 18FAB5932515BFD50071B6CA;
+					};
+				};
+			};
+			buildConfigurationList = 18FAB58F2515BFD50071B6CA /* Build configuration list for PBXProject "VietLottFun" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18FAB58B2515BFD50071B6CA;
+			productRefGroup = 18FAB5952515BFD50071B6CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18FAB5932515BFD50071B6CA /* VietLottFun */,
+				18FAB5A92515BFD70071B6CA /* VietLottFunTests */,
+				18FAB5B42515BFD70071B6CA /* VietLottFunUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18FAB5922515BFD50071B6CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FAB5A42515BFD70071B6CA /* LaunchScreen.storyboard in Resources */,
+				18FAB5A12515BFD70071B6CA /* Assets.xcassets in Resources */,
+				18FAB59F2515BFD50071B6CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FAB5A82515BFD70071B6CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FAB5B32515BFD70071B6CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18FAB5902515BFD50071B6CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FAB59C2515BFD50071B6CA /* ModeViewController.swift in Sources */,
+				18FAB5CE2515C01E0071B6CA /* K.swift in Sources */,
+				18FAB5DD251DC7B50071B6CA /* CollectionViewCell.swift in Sources */,
+				18FAB5D8251C3C800071B6CA /* KenoViewController.swift in Sources */,
+				18FAB5982515BFD50071B6CA /* AppDelegate.swift in Sources */,
+				186157A5251DEC940095B226 /* PlayViewController.swift in Sources */,
+				18FAB59A2515BFD50071B6CA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FAB5A62515BFD70071B6CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FAB5AF2515BFD70071B6CA /* VietLottFunTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FAB5B12515BFD70071B6CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FAB5BA2515BFD70071B6CA /* VietLottFunUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18FAB5AC2515BFD70071B6CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18FAB5932515BFD50071B6CA /* VietLottFun */;
+			targetProxy = 18FAB5AB2515BFD70071B6CA /* PBXContainerItemProxy */;
+		};
+		18FAB5B72515BFD70071B6CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18FAB5932515BFD50071B6CA /* VietLottFun */;
+			targetProxy = 18FAB5B62515BFD70071B6CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18FAB59D2515BFD50071B6CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FAB59E2515BFD50071B6CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18FAB5A22515BFD70071B6CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FAB5A32515BFD70071B6CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18FAB5BC2515BFD70071B6CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18FAB5BD2515BFD70071B6CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18FAB5BF2515BFD70071B6CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VC8HH4HRTP;
+				INFOPLIST_FILE = VietLottFun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaoru.VietLottFun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18FAB5C02515BFD70071B6CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VC8HH4HRTP;
+				INFOPLIST_FILE = VietLottFun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaoru.VietLottFun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18FAB5C22515BFD70071B6CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VC8HH4HRTP;
+				INFOPLIST_FILE = VietLottFunTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaoru.VietLottFunTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VietLottFun.app/VietLottFun";
+			};
+			name = Debug;
+		};
+		18FAB5C32515BFD70071B6CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VC8HH4HRTP;
+				INFOPLIST_FILE = VietLottFunTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaoru.VietLottFunTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VietLottFun.app/VietLottFun";
+			};
+			name = Release;
+		};
+		18FAB5C52515BFD70071B6CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VC8HH4HRTP;
+				INFOPLIST_FILE = VietLottFunUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaoru.VietLottFunUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VietLottFun;
+			};
+			name = Debug;
+		};
+		18FAB5C62515BFD70071B6CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VC8HH4HRTP;
+				INFOPLIST_FILE = VietLottFunUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaoru.VietLottFunUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VietLottFun;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18FAB58F2515BFD50071B6CA /* Build configuration list for PBXProject "VietLottFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FAB5BC2515BFD70071B6CA /* Debug */,
+				18FAB5BD2515BFD70071B6CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FAB5BE2515BFD70071B6CA /* Build configuration list for PBXNativeTarget "VietLottFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FAB5BF2515BFD70071B6CA /* Debug */,
+				18FAB5C02515BFD70071B6CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FAB5C12515BFD70071B6CA /* Build configuration list for PBXNativeTarget "VietLottFunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FAB5C22515BFD70071B6CA /* Debug */,
+				18FAB5C32515BFD70071B6CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FAB5C42515BFD70071B6CA /* Build configuration list for PBXNativeTarget "VietLottFunUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FAB5C52515BFD70071B6CA /* Debug */,
+				18FAB5C62515BFD70071B6CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18FAB58C2515BFD50071B6CA /* Project object */;
+}
