@@ -3,43 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180B0D54253975B70038F599 /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B0D53253975B70038F599 /* PopUpView.swift */; };
 		186157A5251DEC940095B226 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186157A4251DEC940095B226 /* PlayViewController.swift */; };
+		18C84071253832DA0029AC57 /* TableLoadOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C84070253832DA0029AC57 /* TableLoadOutViewController.swift */; };
+		18D061F125238AD100EEB592 /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D061F025238AD100EEB592 /* MyButton.swift */; };
+		18D061FE252AE7FA00EEB592 /* RecentResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D061FD252AE7FA00EEB592 /* RecentResultsViewController.swift */; };
+		18D06206252B1AC100EEB592 /* VietLottResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D06205252B1AC100EEB592 /* VietLottResult.swift */; };
+		18D0622E252CC13200EEB592 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D0622D252CC13200EEB592 /* TableViewCell.swift */; };
+		18E78C972539C149007495B0 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E78C962539C149007495B0 /* ViewExtensions.swift */; };
 		18FAB5982515BFD50071B6CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FAB5972515BFD50071B6CA /* AppDelegate.swift */; };
 		18FAB59A2515BFD50071B6CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FAB5992515BFD50071B6CA /* SceneDelegate.swift */; };
 		18FAB59C2515BFD50071B6CA /* ModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FAB59B2515BFD50071B6CA /* ModeViewController.swift */; };
 		18FAB59F2515BFD50071B6CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FAB59D2515BFD50071B6CA /* Main.storyboard */; };
 		18FAB5A12515BFD70071B6CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FAB5A02515BFD70071B6CA /* Assets.xcassets */; };
 		18FAB5A42515BFD70071B6CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FAB5A22515BFD70071B6CA /* LaunchScreen.storyboard */; };
-		18FAB5AF2515BFD70071B6CA /* VietLottFunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FAB5AE2515BFD70071B6CA /* VietLottFunTests.swift */; };
-		18FAB5BA2515BFD70071B6CA /* VietLottFunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FAB5B92515BFD70071B6CA /* VietLottFunUITests.swift */; };
 		18FAB5CE2515C01E0071B6CA /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FAB5CD2515C01E0071B6CA /* K.swift */; };
 		18FAB5D8251C3C800071B6CA /* KenoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FAB5D7251C3C800071B6CA /* KenoViewController.swift */; };
 		18FAB5DD251DC7B50071B6CA /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FAB5DC251DC7B50071B6CA /* CollectionViewCell.swift */; };
+		86EE21E27E75B02ED92DF723 /* Pods_VietLottFun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B69D9CBAFA029CAA0E05E7B9 /* Pods_VietLottFun.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		18FAB5AB2515BFD70071B6CA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 18FAB58C2515BFD50071B6CA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 18FAB5932515BFD50071B6CA;
-			remoteInfo = VietLottFun;
-		};
-		18FAB5B62515BFD70071B6CA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 18FAB58C2515BFD50071B6CA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 18FAB5932515BFD50071B6CA;
-			remoteInfo = VietLottFun;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		180B0D53253975B70038F599 /* PopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
 		186157A4251DEC940095B226 /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+		18C84070253832DA0029AC57 /* TableLoadOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableLoadOutViewController.swift; sourceTree = "<group>"; };
+		18D061F025238AD100EEB592 /* MyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
+		18D061FD252AE7FA00EEB592 /* RecentResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentResultsViewController.swift; sourceTree = "<group>"; };
+		18D06205252B1AC100EEB592 /* VietLottResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VietLottResult.swift; sourceTree = "<group>"; };
+		18D0622D252CC13200EEB592 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		18E78C962539C149007495B0 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
 		18FAB5942515BFD50071B6CA /* VietLottFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VietLottFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18FAB5972515BFD50071B6CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18FAB5992515BFD50071B6CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,15 +44,18 @@
 		18FAB5A02515BFD70071B6CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18FAB5A32515BFD70071B6CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18FAB5A52515BFD70071B6CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18FAB5AA2515BFD70071B6CA /* VietLottFunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VietLottFunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		18FAB5AE2515BFD70071B6CA /* VietLottFunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VietLottFunTests.swift; sourceTree = "<group>"; };
-		18FAB5B02515BFD70071B6CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18FAB5B52515BFD70071B6CA /* VietLottFunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VietLottFunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		18FAB5B92515BFD70071B6CA /* VietLottFunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VietLottFunUITests.swift; sourceTree = "<group>"; };
-		18FAB5BB2515BFD70071B6CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18FAB5CD2515C01E0071B6CA /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
 		18FAB5D7251C3C800071B6CA /* KenoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KenoViewController.swift; sourceTree = "<group>"; };
 		18FAB5DC251DC7B50071B6CA /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		49609EEC100DF9CD74B0E0BB /* Pods-VietLottFun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VietLottFun.debug.xcconfig"; path = "Target Support Files/Pods-VietLottFun/Pods-VietLottFun.debug.xcconfig"; sourceTree = "<group>"; };
+		550F98B9161440B6BA9FB973 /* Pods-VietLottFun-VietLottFunUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VietLottFun-VietLottFunUITests.release.xcconfig"; path = "Target Support Files/Pods-VietLottFun-VietLottFunUITests/Pods-VietLottFun-VietLottFunUITests.release.xcconfig"; sourceTree = "<group>"; };
+		64DE55ABD07D69748095148A /* Pods-VietLottFunTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VietLottFunTests.debug.xcconfig"; path = "Target Support Files/Pods-VietLottFunTests/Pods-VietLottFunTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6B11C11CCF987F6CE38E9AEE /* Pods_VietLottFun_VietLottFunUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VietLottFun_VietLottFunUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F7231278C5527B3E7458586 /* Pods-VietLottFun-VietLottFunUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VietLottFun-VietLottFunUITests.debug.xcconfig"; path = "Target Support Files/Pods-VietLottFun-VietLottFunUITests/Pods-VietLottFun-VietLottFunUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		817C007270DD8B1F78B45AA8 /* Pods-VietLottFun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VietLottFun.release.xcconfig"; path = "Target Support Files/Pods-VietLottFun/Pods-VietLottFun.release.xcconfig"; sourceTree = "<group>"; };
+		86BAAD96633C56C742D5EC20 /* Pods_VietLottFunTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VietLottFunTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B69D9CBAFA029CAA0E05E7B9 /* Pods_VietLottFun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VietLottFun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7294FB05B8BDB9986E1D40E /* Pods-VietLottFunTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VietLottFunTests.release.xcconfig"; path = "Target Support Files/Pods-VietLottFunTests/Pods-VietLottFunTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,33 +63,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		18FAB5A72515BFD70071B6CA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		18FAB5B22515BFD70071B6CA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				86EE21E27E75B02ED92DF723 /* Pods_VietLottFun.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18C8406A253832200029AC57 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				18D061F025238AD100EEB592 /* MyButton.swift */,
+				18FAB5DC251DC7B50071B6CA /* CollectionViewCell.swift */,
+				18D0622D252CC13200EEB592 /* TableViewCell.swift */,
+				18C84070253832DA0029AC57 /* TableLoadOutViewController.swift */,
+				18E78C962539C149007495B0 /* ViewExtensions.swift */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		18C8406C253832780029AC57 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				18FAB59B2515BFD50071B6CA /* ModeViewController.swift */,
+				18FAB5D7251C3C800071B6CA /* KenoViewController.swift */,
+				186157A4251DEC940095B226 /* PlayViewController.swift */,
+				18D061FD252AE7FA00EEB592 /* RecentResultsViewController.swift */,
+				180B0D53253975B70038F599 /* PopUpView.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		18D06204252B1AA000EEB592 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18D06205252B1AC100EEB592 /* VietLottResult.swift */,
+				18FAB5CD2515C01E0071B6CA /* K.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		18FAB58B2515BFD50071B6CA = {
 			isa = PBXGroup;
 			children = (
 				18FAB5962515BFD50071B6CA /* VietLottFun */,
-				18FAB5AD2515BFD70071B6CA /* VietLottFunTests */,
-				18FAB5B82515BFD70071B6CA /* VietLottFunUITests */,
 				18FAB5952515BFD50071B6CA /* Products */,
+				D5EB80BBD516B78AA232351F /* Pods */,
+				D21FFA09F91A185DBFB21960 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,8 +117,6 @@
 			isa = PBXGroup;
 			children = (
 				18FAB5942515BFD50071B6CA /* VietLottFun.app */,
-				18FAB5AA2515BFD70071B6CA /* VietLottFunTests.xctest */,
-				18FAB5B52515BFD70071B6CA /* VietLottFunUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,10 +124,9 @@
 		18FAB5962515BFD50071B6CA /* VietLottFun */ = {
 			isa = PBXGroup;
 			children = (
-				18FAB5DC251DC7B50071B6CA /* CollectionViewCell.swift */,
 				18FAB5972515BFD50071B6CA /* AppDelegate.swift */,
 				18FAB5992515BFD50071B6CA /* SceneDelegate.swift */,
-				18FAB5CD2515C01E0071B6CA /* K.swift */,
+				18D06204252B1AA000EEB592 /* Model */,
 				18FAB5E9251DD3C50071B6CA /* View */,
 				18FAB59D2515BFD50071B6CA /* Main.storyboard */,
 				18FAB5A02515BFD70071B6CA /* Assets.xcassets */,
@@ -120,32 +136,36 @@
 			path = VietLottFun;
 			sourceTree = "<group>";
 		};
-		18FAB5AD2515BFD70071B6CA /* VietLottFunTests */ = {
-			isa = PBXGroup;
-			children = (
-				18FAB5AE2515BFD70071B6CA /* VietLottFunTests.swift */,
-				18FAB5B02515BFD70071B6CA /* Info.plist */,
-			);
-			path = VietLottFunTests;
-			sourceTree = "<group>";
-		};
-		18FAB5B82515BFD70071B6CA /* VietLottFunUITests */ = {
-			isa = PBXGroup;
-			children = (
-				18FAB5B92515BFD70071B6CA /* VietLottFunUITests.swift */,
-				18FAB5BB2515BFD70071B6CA /* Info.plist */,
-			);
-			path = VietLottFunUITests;
-			sourceTree = "<group>";
-		};
 		18FAB5E9251DD3C50071B6CA /* View */ = {
 			isa = PBXGroup;
 			children = (
-				18FAB59B2515BFD50071B6CA /* ModeViewController.swift */,
-				18FAB5D7251C3C800071B6CA /* KenoViewController.swift */,
-				186157A4251DEC940095B226 /* PlayViewController.swift */,
+				18C8406A253832200029AC57 /* Layout */,
+				18C8406C253832780029AC57 /* View Controllers */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		D21FFA09F91A185DBFB21960 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B69D9CBAFA029CAA0E05E7B9 /* Pods_VietLottFun.framework */,
+				6B11C11CCF987F6CE38E9AEE /* Pods_VietLottFun_VietLottFunUITests.framework */,
+				86BAAD96633C56C742D5EC20 /* Pods_VietLottFunTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5EB80BBD516B78AA232351F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49609EEC100DF9CD74B0E0BB /* Pods-VietLottFun.debug.xcconfig */,
+				817C007270DD8B1F78B45AA8 /* Pods-VietLottFun.release.xcconfig */,
+				7F7231278C5527B3E7458586 /* Pods-VietLottFun-VietLottFunUITests.debug.xcconfig */,
+				550F98B9161440B6BA9FB973 /* Pods-VietLottFun-VietLottFunUITests.release.xcconfig */,
+				64DE55ABD07D69748095148A /* Pods-VietLottFunTests.debug.xcconfig */,
+				B7294FB05B8BDB9986E1D40E /* Pods-VietLottFunTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18FAB5BE2515BFD70071B6CA /* Build configuration list for PBXNativeTarget "VietLottFun" */;
 			buildPhases = (
+				9091EA726DF3B139AE5B5369 /* [CP] Check Pods Manifest.lock */,
 				18FAB5902515BFD50071B6CA /* Sources */,
 				18FAB5912515BFD50071B6CA /* Frameworks */,
 				18FAB5922515BFD50071B6CA /* Resources */,
+				A5AE36AA61496F794EA3A7D8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -167,42 +189,6 @@
 			productName = VietLottFun;
 			productReference = 18FAB5942515BFD50071B6CA /* VietLottFun.app */;
 			productType = "com.apple.product-type.application";
-		};
-		18FAB5A92515BFD70071B6CA /* VietLottFunTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 18FAB5C12515BFD70071B6CA /* Build configuration list for PBXNativeTarget "VietLottFunTests" */;
-			buildPhases = (
-				18FAB5A62515BFD70071B6CA /* Sources */,
-				18FAB5A72515BFD70071B6CA /* Frameworks */,
-				18FAB5A82515BFD70071B6CA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				18FAB5AC2515BFD70071B6CA /* PBXTargetDependency */,
-			);
-			name = VietLottFunTests;
-			productName = VietLottFunTests;
-			productReference = 18FAB5AA2515BFD70071B6CA /* VietLottFunTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		18FAB5B42515BFD70071B6CA /* VietLottFunUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 18FAB5C42515BFD70071B6CA /* Build configuration list for PBXNativeTarget "VietLottFunUITests" */;
-			buildPhases = (
-				18FAB5B12515BFD70071B6CA /* Sources */,
-				18FAB5B22515BFD70071B6CA /* Frameworks */,
-				18FAB5B32515BFD70071B6CA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				18FAB5B72515BFD70071B6CA /* PBXTargetDependency */,
-			);
-			name = VietLottFunUITests;
-			productName = VietLottFunUITests;
-			productReference = 18FAB5B52515BFD70071B6CA /* VietLottFunUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -215,14 +201,6 @@
 				TargetAttributes = {
 					18FAB5932515BFD50071B6CA = {
 						CreatedOnToolsVersion = 12.0;
-					};
-					18FAB5A92515BFD70071B6CA = {
-						CreatedOnToolsVersion = 12.0;
-						TestTargetID = 18FAB5932515BFD50071B6CA;
-					};
-					18FAB5B42515BFD70071B6CA = {
-						CreatedOnToolsVersion = 12.0;
-						TestTargetID = 18FAB5932515BFD50071B6CA;
 					};
 				};
 			};
@@ -240,8 +218,6 @@
 			projectRoot = "";
 			targets = (
 				18FAB5932515BFD50071B6CA /* VietLottFun */,
-				18FAB5A92515BFD70071B6CA /* VietLottFunTests */,
-				18FAB5B42515BFD70071B6CA /* VietLottFunUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -257,21 +233,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		18FAB5A82515BFD70071B6CA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		18FAB5B32515BFD70071B6CA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9091EA726DF3B139AE5B5369 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VietLottFun-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5AE36AA61496F794EA3A7D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VietLottFun/Pods-VietLottFun-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VietLottFun/Pods-VietLottFun-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VietLottFun/Pods-VietLottFun-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		18FAB5902515BFD50071B6CA /* Sources */ = {
@@ -281,43 +285,21 @@
 				18FAB59C2515BFD50071B6CA /* ModeViewController.swift in Sources */,
 				18FAB5CE2515C01E0071B6CA /* K.swift in Sources */,
 				18FAB5DD251DC7B50071B6CA /* CollectionViewCell.swift in Sources */,
+				18D061F125238AD100EEB592 /* MyButton.swift in Sources */,
+				18D061FE252AE7FA00EEB592 /* RecentResultsViewController.swift in Sources */,
+				18D0622E252CC13200EEB592 /* TableViewCell.swift in Sources */,
+				18D06206252B1AC100EEB592 /* VietLottResult.swift in Sources */,
+				180B0D54253975B70038F599 /* PopUpView.swift in Sources */,
+				18E78C972539C149007495B0 /* ViewExtensions.swift in Sources */,
 				18FAB5D8251C3C800071B6CA /* KenoViewController.swift in Sources */,
 				18FAB5982515BFD50071B6CA /* AppDelegate.swift in Sources */,
+				18C84071253832DA0029AC57 /* TableLoadOutViewController.swift in Sources */,
 				186157A5251DEC940095B226 /* PlayViewController.swift in Sources */,
 				18FAB59A2515BFD50071B6CA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		18FAB5A62515BFD70071B6CA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				18FAB5AF2515BFD70071B6CA /* VietLottFunTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		18FAB5B12515BFD70071B6CA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				18FAB5BA2515BFD70071B6CA /* VietLottFunUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		18FAB5AC2515BFD70071B6CA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 18FAB5932515BFD50071B6CA /* VietLottFun */;
-			targetProxy = 18FAB5AB2515BFD70071B6CA /* PBXContainerItemProxy */;
-		};
-		18FAB5B72515BFD70071B6CA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 18FAB5932515BFD50071B6CA /* VietLottFun */;
-			targetProxy = 18FAB5B62515BFD70071B6CA /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		18FAB59D2515BFD50071B6CA /* Main.storyboard */ = {
@@ -457,6 +439,7 @@
 		};
 		18FAB5BF2515BFD70071B6CA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49609EEC100DF9CD74B0E0BB /* Pods-VietLottFun.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -476,6 +459,7 @@
 		};
 		18FAB5C02515BFD70071B6CA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 817C007270DD8B1F78B45AA8 /* Pods-VietLottFun.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -490,90 +474,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		18FAB5C22515BFD70071B6CA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VC8HH4HRTP;
-				INFOPLIST_FILE = VietLottFunTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kaoru.VietLottFunTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VietLottFun.app/VietLottFun";
-			};
-			name = Debug;
-		};
-		18FAB5C32515BFD70071B6CA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VC8HH4HRTP;
-				INFOPLIST_FILE = VietLottFunTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kaoru.VietLottFunTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VietLottFun.app/VietLottFun";
-			};
-			name = Release;
-		};
-		18FAB5C52515BFD70071B6CA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VC8HH4HRTP;
-				INFOPLIST_FILE = VietLottFunUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kaoru.VietLottFunUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = VietLottFun;
-			};
-			name = Debug;
-		};
-		18FAB5C62515BFD70071B6CA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VC8HH4HRTP;
-				INFOPLIST_FILE = VietLottFunUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kaoru.VietLottFunUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = VietLottFun;
 			};
 			name = Release;
 		};
@@ -594,24 +494,6 @@
 			buildConfigurations = (
 				18FAB5BF2515BFD70071B6CA /* Debug */,
 				18FAB5C02515BFD70071B6CA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		18FAB5C12515BFD70071B6CA /* Build configuration list for PBXNativeTarget "VietLottFunTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				18FAB5C22515BFD70071B6CA /* Debug */,
-				18FAB5C32515BFD70071B6CA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		18FAB5C42515BFD70071B6CA /* Build configuration list for PBXNativeTarget "VietLottFunUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				18FAB5C52515BFD70071B6CA /* Debug */,
-				18FAB5C62515BFD70071B6CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

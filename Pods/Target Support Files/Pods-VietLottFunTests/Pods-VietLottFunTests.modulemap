@@ -1,0 +1,6 @@
+framework module Pods_VietLottFunTests {
+  umbrella header "Pods-VietLottFunTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
