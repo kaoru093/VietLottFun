@@ -7,14 +7,17 @@
 
 import Foundation
 import SwiftyJSON
+import CoreData
 
 class VietLottResult {
     let urlString = "https://hoanglanngocthaowedding.com/api/vietlott/"
     var type: TypeK?
     var delegate: VietLottResultDelegate?
-    var resultModel : [Results] = []
+    var resultModel : [RecentResults] = []
+    var savedNumbers = [Numbers]()
     var allResult : [Int] = []
     var topFive: [Top5] = []
+    let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     
     func fetchResult(_ mode: Int) {
         if let url = URL(string: urlString+String(mode)) {
@@ -28,7 +31,7 @@ class VietLottResult {
                         if mode != 5 {
                             let decoder = JSONDecoder()
                             do {
-                                let resultModel = try decoder.decode([Results].self, from: safeData)
+                                let resultModel = try decoder.decode([RecentResults].self, from: safeData)
                                 self.resultModel = resultModel
                                 self.delegate?.didFetchResult(resultModel)
                                 self.getTotalResultArray(self.resultModel)
@@ -38,8 +41,8 @@ class VietLottResult {
                             }
                         }
                         else {
-                            var resultModel : [Results] = []
-                            var result = Results(date: 0, result: [])
+                            var resultModel : [RecentResults] = []
+                            var result = RecentResults(date: 0, result: [])
                             for i in 0...JSON(safeData).count {
                                 result.date = JSON(safeData)[i]["date"].intValue
                                 let array = JSON(safeData)[i]["result"].arrayValue
@@ -87,7 +90,7 @@ class VietLottResult {
         return localDate
     }
     
-    func getTotalResultArray(_ resultModel: [Results]) {
+    func getTotalResultArray(_ resultModel: [RecentResults]) {
         var array : [Int] = []
         for results in resultModel {
             for i in results.result {
@@ -109,12 +112,48 @@ class VietLottResult {
         self.topFive = topFive
         print(self.topFive)
     }
+    
+    func saveNumber() {
+        do {
+            try context.save()
+        } catch {
+            print("Error saving number: \(error.localizedDescription)")
+        }
+    }
+    
+    func loadNumber(_ type: TypeK) {
+        let request : NSFetchRequest<Numbers> = Numbers.fetchRequest()
+        request.predicate = NSPredicate(format: "type MATCHES %@", type.name)
+        let sort = NSSortDescriptor(key: "date", ascending: false)
+        let sortDescriptors = [sort]
+        request.sortDescriptors = sortDescriptors
+        do {
+            savedNumbers = try context.fetch(request)
+        } catch {
+            print("Error loading numbers: \(error.localizedDescription)")
+        }
+    }
+    
+    func percentage(array1: Array<Int>, array2: Array<Int>) -> String {
+        var count = 0
+        array1.forEach { (number) in
+            if array2.contains(number) {
+                count += 1
+            }
+        }
+        let percentage = (Double(count)/Double(array1.count))*100
+        
+        let percentageString = "\(String(format: "%.2f", percentage))%"
+        return percentageString
+    }
 }
 
 
 
 
+
+
 protocol VietLottResultDelegate {
-    func didFetchResult(_ vietLottResults: [Results])
+    func didFetchResult(_ vietLottResults: [RecentResults])
     func didFailWithError()
 }

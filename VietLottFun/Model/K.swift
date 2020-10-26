@@ -68,7 +68,7 @@ enum TypeK: Int {
     }
 }
 
-struct Results : Decodable {
+struct RecentResults : Decodable {
     var date: Int
     var result: Array<Int>
 }

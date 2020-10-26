@@ -8,7 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		180B0D54253975B70038F599 /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B0D53253975B70038F599 /* PopUpView.swift */; };
+		1817030A25415A270019623B /* SavedResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1817030925415A270019623B /* SavedResultsViewController.swift */; };
+		1817030D254162360019623B /* RecentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1817030C254162360019623B /* RecentTableViewCell.swift */; };
+		181703132541E3870019623B /* SavedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181703122541E3870019623B /* SavedTableViewCell.swift */; };
 		186157A5251DEC940095B226 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186157A4251DEC940095B226 /* PlayViewController.swift */; };
+		187C3D3E2542D84B00872DFD /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 187C3D3C2542D84B00872DFD /* DataModel.xcdatamodeld */; };
+		187C3D9125451F6300872DFD /* Numbers+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187C3D8F25451F6200872DFD /* Numbers+CoreDataProperties.swift */; };
+		187C3D9225451F6300872DFD /* Numbers+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187C3D9025451F6200872DFD /* Numbers+CoreDataClass.swift */; };
 		18C84071253832DA0029AC57 /* TableLoadOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C84070253832DA0029AC57 /* TableLoadOutViewController.swift */; };
 		18D061F125238AD100EEB592 /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D061F025238AD100EEB592 /* MyButton.swift */; };
 		18D061FE252AE7FA00EEB592 /* RecentResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D061FD252AE7FA00EEB592 /* RecentResultsViewController.swift */; };
@@ -29,7 +35,13 @@
 
 /* Begin PBXFileReference section */
 		180B0D53253975B70038F599 /* PopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
+		1817030925415A270019623B /* SavedResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedResultsViewController.swift; sourceTree = "<group>"; };
+		1817030C254162360019623B /* RecentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTableViewCell.swift; sourceTree = "<group>"; };
+		181703122541E3870019623B /* SavedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedTableViewCell.swift; sourceTree = "<group>"; };
 		186157A4251DEC940095B226 /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+		187C3D3D2542D84B00872DFD /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		187C3D8F25451F6200872DFD /* Numbers+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Numbers+CoreDataProperties.swift"; path = "/Users/apple/projects/VietLottFun/VietLottFun/Model/Numbers+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
+		187C3D9025451F6200872DFD /* Numbers+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Numbers+CoreDataClass.swift"; path = "/Users/apple/projects/VietLottFun/VietLottFun/Model/Numbers+CoreDataClass.swift"; sourceTree = "<absolute>"; };
 		18C84070253832DA0029AC57 /* TableLoadOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableLoadOutViewController.swift; sourceTree = "<group>"; };
 		18D061F025238AD100EEB592 /* MyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
 		18D061FD252AE7FA00EEB592 /* RecentResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentResultsViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +82,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		181703152541E55B0019623B /* Mode choose Play */ = {
+			isa = PBXGroup;
+			children = (
+				18FAB59B2515BFD50071B6CA /* ModeViewController.swift */,
+				186157A4251DEC940095B226 /* PlayViewController.swift */,
+				18FAB5D7251C3C800071B6CA /* KenoViewController.swift */,
+			);
+			path = "Mode choose Play";
+			sourceTree = "<group>";
+		};
+		181703162541E5780019623B /* Show Recent Results */ = {
+			isa = PBXGroup;
+			children = (
+				18D061FD252AE7FA00EEB592 /* RecentResultsViewController.swift */,
+				1817030C254162360019623B /* RecentTableViewCell.swift */,
+				180B0D53253975B70038F599 /* PopUpView.swift */,
+			);
+			path = "Show Recent Results";
+			sourceTree = "<group>";
+		};
+		181703182541E58E0019623B /* Save Results */ = {
+			isa = PBXGroup;
+			children = (
+				1817030925415A270019623B /* SavedResultsViewController.swift */,
+				181703122541E3870019623B /* SavedTableViewCell.swift */,
+			);
+			path = "Save Results";
+			sourceTree = "<group>";
+		};
 		18C8406A253832200029AC57 /* Layout */ = {
 			isa = PBXGroup;
 			children = (
@@ -85,11 +126,9 @@
 		18C8406C253832780029AC57 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				18FAB59B2515BFD50071B6CA /* ModeViewController.swift */,
-				18FAB5D7251C3C800071B6CA /* KenoViewController.swift */,
-				186157A4251DEC940095B226 /* PlayViewController.swift */,
-				18D061FD252AE7FA00EEB592 /* RecentResultsViewController.swift */,
-				180B0D53253975B70038F599 /* PopUpView.swift */,
+				181703152541E55B0019623B /* Mode choose Play */,
+				181703162541E5780019623B /* Show Recent Results */,
+				181703182541E58E0019623B /* Save Results */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -97,8 +136,11 @@
 		18D06204252B1AA000EEB592 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				187C3D9025451F6200872DFD /* Numbers+CoreDataClass.swift */,
+				187C3D8F25451F6200872DFD /* Numbers+CoreDataProperties.swift */,
 				18D06205252B1AC100EEB592 /* VietLottResult.swift */,
 				18FAB5CD2515C01E0071B6CA /* K.swift */,
+				187C3D3C2542D84B00872DFD /* DataModel.xcdatamodeld */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -284,16 +326,22 @@
 			files = (
 				18FAB59C2515BFD50071B6CA /* ModeViewController.swift in Sources */,
 				18FAB5CE2515C01E0071B6CA /* K.swift in Sources */,
+				1817030A25415A270019623B /* SavedResultsViewController.swift in Sources */,
 				18FAB5DD251DC7B50071B6CA /* CollectionViewCell.swift in Sources */,
 				18D061F125238AD100EEB592 /* MyButton.swift in Sources */,
+				181703132541E3870019623B /* SavedTableViewCell.swift in Sources */,
 				18D061FE252AE7FA00EEB592 /* RecentResultsViewController.swift in Sources */,
 				18D0622E252CC13200EEB592 /* TableViewCell.swift in Sources */,
 				18D06206252B1AC100EEB592 /* VietLottResult.swift in Sources */,
+				1817030D254162360019623B /* RecentTableViewCell.swift in Sources */,
+				187C3D9225451F6300872DFD /* Numbers+CoreDataClass.swift in Sources */,
 				180B0D54253975B70038F599 /* PopUpView.swift in Sources */,
 				18E78C972539C149007495B0 /* ViewExtensions.swift in Sources */,
 				18FAB5D8251C3C800071B6CA /* KenoViewController.swift in Sources */,
+				187C3D3E2542D84B00872DFD /* DataModel.xcdatamodeld in Sources */,
 				18FAB5982515BFD50071B6CA /* AppDelegate.swift in Sources */,
 				18C84071253832DA0029AC57 /* TableLoadOutViewController.swift in Sources */,
+				187C3D9125451F6300872DFD /* Numbers+CoreDataProperties.swift in Sources */,
 				186157A5251DEC940095B226 /* PlayViewController.swift in Sources */,
 				18FAB59A2515BFD50071B6CA /* SceneDelegate.swift in Sources */,
 			);
@@ -499,6 +547,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		187C3D3C2542D84B00872DFD /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				187C3D3D2542D84B00872DFD /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 187C3D3D2542D84B00872DFD /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 18FAB58C2515BFD50071B6CA /* Project object */;
 }
